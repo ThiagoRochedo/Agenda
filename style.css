@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, button {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  margin-right: 10px;
+}
